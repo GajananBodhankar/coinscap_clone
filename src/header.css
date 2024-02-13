@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+}
+.mainContainerHeader {
+  background-color: white !important;
+  color: black;
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 0 30px;
+}
+.buttons {
+  color: black !important;
+  padding: 15px 10px !important;
+}
+.buttons:hover {
+  background-color: rgb(235, 235, 235) !important;
+}
+.mainImage {
+  height: 30px;
+  align-self: center;
+}
