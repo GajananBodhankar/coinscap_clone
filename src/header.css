@@ -6,11 +6,11 @@
   color: black;
   display: flex !important;
   flex-direction: row !important;
-  padding: 0 30px;
+  justify-content: space-around;
 }
 .buttons {
   color: black !important;
-  padding: 15px 10px !important;
+  padding: 15px 15px !important;
 }
 .buttons:hover {
   background-color: rgb(235, 235, 235) !important;
@@ -19,3 +19,28 @@
   height: 30px;
   align-self: center;
 }
+.lastComponentOfHeader {
+  align-self: center !important;
+  display: flex;
+  gap: 10px;
+}
+.currencyList {
+  display: block !important;
+  flex-direction: column !important;
+  flex-grow: 0 !important;
+}
+.MuiAutocomplete-option {
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 5px 0px !important;
+  align-items: flex-start !important;
+}
+.optionName {
+  font-size: small !important;
+  color: rgb(154, 154, 154) !important;
+}
+.currencyList:hover {
+  background-color: rgb(232, 232, 232) !important;
+  cursor: pointer;
+}
+

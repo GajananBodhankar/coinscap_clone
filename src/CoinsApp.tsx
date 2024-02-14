@@ -10,10 +10,10 @@ function CoinApp() {
     firstCall(setCoins);
   }, []);
   useEffect(() => {
-    let x = setTimeout(() => {
+    let x = setInterval(() => {
       getApicall(coins, setCoins, setChanged);
     }, 500);
-    return () => clearTimeout(x);
+    return () => clearInterval(x);
   });
   return (
     <div>
